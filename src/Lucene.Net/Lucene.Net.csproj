@@ -84,8 +84,16 @@
     <Compile Include="Analysis\TokenFilter.cs" />
     <Compile Include="Analysis\Tokenizer.cs" />
     <Compile Include="Analysis\TokenStream.cs" />
+    <Compile Include="Document\IFieldable.cs" />
+    <Compile Include="Index\DocInverterPerField.cs" />
     <Compile Include="Index\DocsAndPositionEnumerator.cs" />
+    <Compile Include="Index\FieldInfo.cs" />
+    <Compile Include="Index\InvertedDocConsumer.cs" />
+    <Compile Include="Index\InvertedDocConsumerPerField.cs" />
+    <Compile Include="Index\InvertedDocEndConsumer.cs" />
+    <Compile Include="Index\InvertedDocEndConsumerPerField.cs" />
     <Compile Include="Index\Payload.cs" />
+    <Compile Include="Index\SegmentWriteState.cs" />
     <Compile Include="Index\TermsHashPerField.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Support\BaseDictionaryOfTKeyTValue.cs" />
